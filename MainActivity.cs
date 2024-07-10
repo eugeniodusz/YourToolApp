@@ -1,3 +1,6 @@
+using Android.Content;
+using YourToolApp.Activities;
+
 namespace YourToolApp
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
@@ -9,6 +12,9 @@ namespace YourToolApp
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            Intent intent = new Intent(this, typeof(LoginActivity));
+            StartActivity(intent);
         }
     }
 }

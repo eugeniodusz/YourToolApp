@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">YourToolApp</string>
     <string name="app_text">Hello, Android!</string>
+
+	<string name="login_digite_login">Digite o login</string>
+	<string name="login_digite_senha">Digite a senha</string>
+	<string name="login_button_efutuar_login">Fazer login</string>
+	
 </resources>
